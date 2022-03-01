@@ -11,8 +11,8 @@ export default async function createPlugin({
 }: PluginEnvironment): Promise<Router> {
   return await createRouter({
     logger,
-    config,
     database,
+    config,
     discovery,
     tokenManager,
   });
