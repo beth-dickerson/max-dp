@@ -3,9 +3,7 @@ import { Grid, makeStyles } from '@material-ui/core';
 import { HomePageCompanyLogo, HomePageStarredEntities, HomePageToolkit } from '@backstage/plugin-home';
 import LogoFull from './LogoFull';
 import {
-  Header,
   Page,
-  HeaderLabel,
   InfoCard,
   Content
 } from '@backstage/core-components';
@@ -37,13 +35,13 @@ const useLogoStyles = makeStyles(theme => ({
   },
 }));
 
-const labels = (
-  <>
-    <HeaderLabel label="Owner" value="players" />
-    <HeaderLabel label="Lifecycle" value="Production" />
-    <HeaderLabel label="Tier" value="Level 1" />
-  </>
-);
+// const labels = (
+//   <>
+//     <HeaderLabel label="Owner" value="players" />
+//     <HeaderLabel label="Lifecycle" value="Production" />
+//     <HeaderLabel label="Tier" value="Level 1" />
+//   </>
+// );
 
 
 export const HomePage = () => {
