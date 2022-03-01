@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: landing-page-template
+  name: landing-page
   title: Landing Page Documentation Template
   description: Landing page for NHE Tech Shared Edu Services
   tags:
