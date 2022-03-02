@@ -78,6 +78,10 @@ catalog:
   rules:
     - allow: [Component, System, API, Group, User, Resource, Location, Template]
   locations:
+    # Beth's homemade example template for displaying documentation
+    - type: url
+      target: https://github.com/beth-dickerson/max-dp/blob/master/maxwell/packages/app/src/components/catalog/docs/landing-page.yaml
+
     # Backstage example components
     - type: url
       target: https://github.com/backstage/backstage/blob/master/packages/catalog-model/examples/all-components.yaml

@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: landing-page
+  description: Landing page for NHE Tech Shared Edu Services
+spec:
+  type: library
+  lifecycle: experimental
+  owner: team-c
