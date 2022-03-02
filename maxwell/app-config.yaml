@@ -80,7 +80,7 @@ catalog:
   locations:
     # Beth's homemade example template for displaying documentation
     - type: url
-      target: https://github.com/beth-dickerson/max-dp/blob/master/maxwell/packages/app/src/components/catalog/docs/landing-page.yaml
+      target: https://github.com/beth-dickerson/max-dp/blob/master/maxwell/packages/app/src/components/documentation/landing-page.yaml
 
     # Backstage example components
     - type: url
